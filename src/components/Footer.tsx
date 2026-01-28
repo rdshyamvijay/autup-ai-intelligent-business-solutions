@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
+import { Mail, Linkedin, Twitter, Github } from "lucide-react";
 import autupLogo from "@/assets/autup-mascot.png";
 
 const Footer = () => {
@@ -45,18 +45,10 @@ const Footer = () => {
             
             {/* Contact Info */}
             <div className="space-y-3">
-              <a href="mailto:contact@autup.ai" className="flex items-center gap-3 text-background/70 hover:text-primary transition-colors">
+              <a href="mailto:Autupaitech@gmail.com" className="flex items-center gap-3 text-background/70 hover:text-primary transition-colors">
                 <Mail className="h-5 w-5" />
-                <span>contact@autup.ai</span>
+                <span>Autupaitech@gmail.com</span>
               </a>
-              <a href="tel:+1234567890" className="flex items-center gap-3 text-background/70 hover:text-primary transition-colors">
-                <Phone className="h-5 w-5" />
-                <span>+1 (234) 567-890</span>
-              </a>
-              <div className="flex items-center gap-3 text-background/70">
-                <MapPin className="h-5 w-5" />
-                <span>San Francisco, CA</span>
-              </div>
             </div>
           </div>
 
